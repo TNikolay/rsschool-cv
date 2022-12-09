@@ -2,34 +2,34 @@
 
 (c) An illustration of the cat Behemoth from The Master and Margarita Getty 
 
-#Nikolay Tiushkov
+# Nikolay Tiushkov
 
 ================================
 
-##Contacts:
+## Contacts:
 
 **Phone**: +000 12 345-67-89
 **E-mail**: begemot@begemotov.net
 **Telegram** : [TNikolay80](https://t.me/TNikolay80)
 **GitHub**: [TNikolay](https://github.com/TNikolay)
 
-##About
+## About
 
 Human. Still alive.
 
-##Skills
+## Skills
 
 A lot... a little bit... Who knows?...
 
 Scio me nihil scire
 
-##Links
+## Links
 
 * **Work** : [softvoile.com](http://softvoile.com/)
 * **Private** : [begemotov.net](http://begemotov.net/)
 * **Playground** : [leetcode.com](https://leetcode.com/TNikolay/)
 
-##Code
+## Code
 ```Kotlin
 
 class Solution {
@@ -54,7 +54,7 @@ class Solution {
 }
 ```
 
-##Languages:
+## Languages:
 
 * **Russian** - native
 * **Ukrainian** - intermediate
