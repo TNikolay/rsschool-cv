@@ -21,7 +21,29 @@ Scio me nihil scire
 * **Playground** : [leetcode.com](https://leetcode.com/TNikolay/)
 
 ##Code
-// TODO
+```Kotlin
+
+class Solution {
+    fun closeStrings(word1: String, word2: String): Boolean {
+
+        if (word1.length != word2.length) return false
+
+        val a1: Array<Int> = Array(26, {0})
+        val a2: Array<Int> = Array(26, {0})
+
+        for (w in word1) ++a1[w.toInt() - 97]
+        for (w in word2) ++a2[w.toInt() - 97]
+
+        for (i in a1.indices) 
+            if (a1[i] == 0 && a1[i] != a2[i]) return false
+
+        a1.sort()
+        a2.sort()
+
+        return a1.contentEquals(a2)
+    }
+}
+```
 
 ##Languages:
 * **Russian** - native
