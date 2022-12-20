@@ -34,7 +34,7 @@
 </section>
 
 <section class="section" id="contacts">
-    <h2 id="contacts">Contacts</h2>
+    <h2>Contacts</h2>
     <ul>
         <li>Phone: <a href="tel:+74955555555">+000 12 345-67-89</a></li>
         <li>E-mail: <a href="mailto:begemot@begemotov.net">begemot@begemotov.net</a></li>
@@ -44,7 +44,7 @@
 </section>
 
 <section class="section" id="summary">    
-    <h2 id="summary">Summary</h2>
+    <h2>Summary</h2>
     <div class="summary">
         <p>Human. Still alive.</p>
     </div>
@@ -59,7 +59,7 @@
 </section>
 
 <section class="section" id="links">    
-    <h2 id="links">Links</h2>
+    <h2>Links</h2>
     <ul>
         <li>Work : <a href="http://softvoile.com/" target="_blank">softvoile.com</a></li>
         <li>Private : <a href="http://begemotov.net/" target="_blank">begemotov.net</a></li>
@@ -68,17 +68,18 @@
 </section>
 
 <section class="section" id="code">    
-    <h2 id="code">Code</h2>
+    <h2>Code</h2>
     <div class="code">
         <pre>
+            <code>
     class Solution {
 
         fun closeStrings(word1: String, word2: String): Boolean {
 
             if (word1.length != word2.length) return false
 
-            val a1: Array<Int> = Array(26, {0})
-            val a2: Array<Int> = Array(26, {0})
+            val a1: Array&lt;Int&gt; = Array(26, {0})
+            val a2: Array&lt;Int&gt; = Array(26, {0})
 
             for (w in word1) ++a1[w.toInt() - 97]
             for (w in word2) ++a2[w.toInt() - 97]
@@ -92,19 +93,20 @@
             return a1.contentEquals(a2)
         }
     }
+            </code>
         </pre>
     </div>
 </section>
 
 <section class="section" id="languages">    
-    <h2 id="languages">Languages:</h2>
+    <h2>Languages:</h2>
     <ul>
         <li>Russian - native</li>
         <li>Ukrainian - intermediate</li>
         <li>English - in progress</li>
     </ul>
-</main>
 </section>
+</main>
 
 <footer class="footer">
     <div class="copyright">&copy; 2022 <a href="https://github.com/TNikolay">TNikolay80</a></div>
