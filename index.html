@@ -8,44 +8,67 @@
     <title>Document</title>
 </head>
 <body>
-<div class="wrapper"> 
+
+<div class="container"> 
+
+<header class="header">
+    <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#links" class="nav-link">Links</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+</header>
+
+
 <main>
+<section class="section" id="profile">
+    <h1>Nikolay Tiushkov</h1>
     <img src="./assets/images/the_symbolic_survival_of_the_master_and_margarita_1050x700.jpg" alt="abstraction" width="1050" height="700">
     <div><cite>An illustration of the cat Behemoth from <em>The Master and Margarita</em> &copy; Getty</cite></div>
     
-    <h1>Nikolay Tiushkov</h1>
-    
-    <h2>Contacts</h2>
+</section>
+
+<section class="section" id="contacts">
+    <h2 id="contacts">Contacts</h2>
     <ul>
         <li>Phone: <a href="tel:+74955555555">+000 12 345-67-89</a></li>
         <li>E-mail: <a href="mailto:begemot@begemotov.net">begemot@begemotov.net</a></li>
         <li>Telegram: <a href="https://telegram.me/TNikolay80" target="_blank">TNikolay80</a></li>
         <li>GitHub: <a href="https://github.com/TNikolay" target="_blank">TNikolay</a></li>
     </ul>
-    
-    
-    <h2>About</h2>
-    <div class="about">
+</section>
+
+<section class="section" id="summary">    
+    <h2 id="summary">Summary</h2>
+    <div class="summary">
         <p>Human. Still alive.</p>
     </div>
     
-    <h2>Skills</h2>
+    <h2 id="skills">Skills</h2>
     <ul>
         <li>A lot…</li>
         <li>A little bit…</li>
         <li>Who knows?…</li>
         <li>Scio me nihil scire</li>
     </ul>
-    
-    
-    <h2>Links</h2>
+</section>
+
+<section class="section" id="links">    
+    <h2 id="links">Links</h2>
     <ul>
         <li>Work : <a href="http://softvoile.com/" target="_blank">softvoile.com</a></li>
         <li>Private : <a href="http://begemotov.net/" target="_blank">begemotov.net</a></li>
         <li>Playground : <a href="https://leetcode.com/TNikolay/" target="_blank">https://leetcode.com/TNikolay/</a></li>
     </ul>
-    
-    <h2>Code</h2>
+</section>
+
+<section class="section" id="code">    
+    <h2 id="code">Code</h2>
     <div class="code">
         <pre>
     class Solution {
@@ -71,14 +94,25 @@
     }
         </pre>
     </div>
-    
-    <h2>Languages:</h2>
+</section>
+
+<section class="section" id="languages">    
+    <h2 id="languages">Languages:</h2>
     <ul>
         <li>Russian - native</li>
         <li>Ukrainian - intermediate</li>
         <li>English - in progress</li>
     </ul>
 </main>
+</section>
+
+<footer class="footer">
+    <div class="copyright">&copy; 2022 <a href="https://github.com/TNikolay">TNikolay80</a></div>
+    <div class="logo">
+        <a href="https://rs.school/js/" target="_blank"><img src="./assets/images/rs_school_js.svg" height="50" alt="RSSchool logo"></a>
+    </div>
+</footer>
+
 </div>
 </body>
 </html>
