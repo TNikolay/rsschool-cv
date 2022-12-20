@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+
+}
+
+.container {
+  width: 1050px;
+  margin: 0 auto;
+  padding: 0 25px ;
+}
+
+.footer {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+}
+
+h1 {
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 60px;
+}
+
+h2 {
+  margin-top: 60px;
+}
+
+cite {
+  width: 100%;
+  text-align: right;
+  float: right;
+}
+
+.summary {
+  padding: 0px 24px;
+}
+
+.logo {
+  margin-top: 20px;
+  height: 100px;
+}
