@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>Nikolay Tiushkov, CV</title>
+</head>
+<body>
+
+<div class="container">
+
+<header class="header">
+    <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#links" class="nav-link">Links</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+</header>
+
+
+<main>
+<section class="section" id="profile">
+    <h1>Nikolay Tiushkov</h1>
+    <img src="./assets/images/the_symbolic_survival_of_the_master_and_margarita_1050x700.jpg" alt="abstraction" width="1050" height="700">
+    <div><cite>An illustration of the cat Behemoth from <em>The Master and Margarita</em> &copy; Getty</cite></div>
+</section>
+
+<section class="section" id="contacts">
+    <h2>Contacts</h2>
+    <ul>
+        <li>Phone: <a href="tel:+000123456789">+000&nbsp;12&nbsp;345&#8209;67&#8209;89</a></li>
+        <li>E-mail: <a href="mailto:begemot@begemotov.net">begemot@begemotov.net</a></li>
+        <li>Telegram: <a href="https://telegram.me/TNikolay80" target="_blank">TNikolay80</a></li>
+        <li>GitHub: <a href="https://github.com/TNikolay" target="_blank">TNikolay</a></li>
+    </ul>
+</section>
+
+<section class="section" id="summary">
+    <h2>Summary</h2>
+    <div class="summary">
+        <p>Human. Still alive.</p>
+    </div>
+
+    <h2 id="skills">Skills</h2>
+    <ul>
+        <li>A lot…</li>
+        <li>A little bit…</li>
+        <li>Who knows?…</li>
+        <li>Scio me nihil scire</li>
+    </ul>
+</section>
+
+<section class="section" id="links">
+    <h2>Links</h2>
+    <ul>
+        <li>Work : <a href="http://softvoile.com/" target="_blank">softvoile.com</a></li>
+        <li>Private : <a href="http://begemotov.net/" target="_blank">begemotov.net</a></li>
+        <li>Playground : <a href="https://leetcode.com/TNikolay/" target="_blank">https://leetcode.com/TNikolay/</a></li>
+    </ul>
+</section>
+
+<section class="section" id="code">
+    <h2>Code</h2>
+    <div class="code">
+        <pre>
+            <code>
+    class Solution {
+
+        fun closeStrings(word1: String, word2: String): Boolean {
+
+            if (word1.length != word2.length) return false
+
+            val a1: Array&lt;Int&gt; = Array(26, {0})
+            val a2: Array&lt;Int&gt; = Array(26, {0})
+
+            for (w in word1) ++a1[w.toInt() - 97]
+            for (w in word2) ++a2[w.toInt() - 97]
+
+            for (i in a1.indices)
+                if (a1[i] == 0 &amp;&amp; a1[i] != a2[i]) return false
+
+            a1.sort()
+            a2.sort()
+
+            return a1.contentEquals(a2)
+        }
+    }
+            </code>
+        </pre>
+    </div>
+</section>
+
+<section class="section" id="languages">
+    <h2>Languages:</h2>
+    <ul>
+        <li>Russian - native</li>
+        <li>Ukrainian - intermediate</li>
+        <li>English - in progress</li>
+    </ul>
+</section>
+</main>
+
+<footer class="footer">
+    <div class="copyright">&copy; 2022 <a href="https://github.com/TNikolay">TNikolay80</a></div>
+    <div class="logo">
+        <a href="https://rs.school/js/" target="_blank"><img src="./assets/images/rs_school_js.svg" height="50" alt="RSSchool logo"></a>
+    </div>
+</footer>
+
+</div>
+</body>
+</html>
